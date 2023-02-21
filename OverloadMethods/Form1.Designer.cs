@@ -43,9 +43,10 @@
             // 
             this.areaOutput.BackColor = System.Drawing.Color.White;
             this.areaOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.areaOutput.Location = new System.Drawing.Point(41, 300);
+            this.areaOutput.Location = new System.Drawing.Point(55, 369);
+            this.areaOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.areaOutput.Name = "areaOutput";
-            this.areaOutput.Size = new System.Drawing.Size(284, 25);
+            this.areaOutput.Size = new System.Drawing.Size(379, 76);
             this.areaOutput.TabIndex = 19;
             this.areaOutput.Text = "...";
             // 
@@ -53,9 +54,10 @@
             // 
             this.value2Label.AutoSize = true;
             this.value2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.value2Label.Location = new System.Drawing.Point(41, 245);
+            this.value2Label.Location = new System.Drawing.Point(55, 302);
+            this.value2Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.value2Label.Name = "value2Label";
-            this.value2Label.Size = new System.Drawing.Size(85, 25);
+            this.value2Label.Size = new System.Drawing.Size(105, 31);
             this.value2Label.TabIndex = 18;
             this.value2Label.Text = "Value 2";
             // 
@@ -63,34 +65,38 @@
             // 
             this.value1Label.AutoSize = true;
             this.value1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.value1Label.Location = new System.Drawing.Point(41, 203);
+            this.value1Label.Location = new System.Drawing.Point(55, 250);
+            this.value1Label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.value1Label.Name = "value1Label";
-            this.value1Label.Size = new System.Drawing.Size(85, 25);
+            this.value1Label.Size = new System.Drawing.Size(105, 31);
             this.value1Label.TabIndex = 17;
             this.value1Label.Text = "Value 1";
             // 
             // value2Input
             // 
             this.value2Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.value2Input.Location = new System.Drawing.Point(131, 242);
+            this.value2Input.Location = new System.Drawing.Point(175, 298);
+            this.value2Input.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.value2Input.Name = "value2Input";
-            this.value2Input.Size = new System.Drawing.Size(63, 31);
+            this.value2Input.Size = new System.Drawing.Size(83, 37);
             this.value2Input.TabIndex = 16;
             // 
             // value1Input
             // 
             this.value1Input.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.value1Input.Location = new System.Drawing.Point(131, 200);
+            this.value1Input.Location = new System.Drawing.Point(175, 246);
+            this.value1Input.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.value1Input.Name = "value1Input";
-            this.value1Input.Size = new System.Drawing.Size(63, 31);
+            this.value1Input.Size = new System.Drawing.Size(83, 37);
             this.value1Input.TabIndex = 15;
             // 
             // areaButton
             // 
             this.areaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.areaButton.Location = new System.Drawing.Point(200, 200);
+            this.areaButton.Location = new System.Drawing.Point(267, 246);
+            this.areaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.areaButton.Name = "areaButton";
-            this.areaButton.Size = new System.Drawing.Size(125, 73);
+            this.areaButton.Size = new System.Drawing.Size(167, 90);
             this.areaButton.TabIndex = 14;
             this.areaButton.Text = "Area";
             this.areaButton.UseVisualStyleBackColor = true;
@@ -100,9 +106,10 @@
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(52, 30);
+            this.titleLabel.Location = new System.Drawing.Point(69, 37);
+            this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(256, 39);
+            this.titleLabel.Size = new System.Drawing.Size(323, 52);
             this.titleLabel.TabIndex = 20;
             this.titleLabel.Text = "Area Calculator";
             // 
@@ -110,18 +117,19 @@
             // 
             this.instructionLabel.AutoSize = true;
             this.instructionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionLabel.Location = new System.Drawing.Point(91, 83);
+            this.instructionLabel.Location = new System.Drawing.Point(121, 102);
+            this.instructionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.instructionLabel.Name = "instructionLabel";
-            this.instructionLabel.Size = new System.Drawing.Size(121, 20);
+            this.instructionLabel.Size = new System.Drawing.Size(148, 25);
             this.instructionLabel.TabIndex = 21;
             this.instructionLabel.Text = "instructionLabel";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.ClientSize = new System.Drawing.Size(369, 381);
+            this.ClientSize = new System.Drawing.Size(492, 469);
             this.Controls.Add(this.instructionLabel);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.areaOutput);
@@ -131,6 +139,7 @@
             this.Controls.Add(this.value1Input);
             this.Controls.Add(this.areaButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Area Calculator";
             this.ResumeLayout(false);
